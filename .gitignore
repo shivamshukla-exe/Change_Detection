@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+!rooftop_best_model_new.pt
+
+# Temporary files
+*.log
+*.tmp
+temp/
+
+# Node modules (if any)
+node_modules/
+project/node_modules/
+project/dist/
+
+# Environment
+.env
+.env.local
