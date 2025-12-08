@@ -18,13 +18,25 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Project specific
+# Project specific - exclude large image files
 *.png
 *.jpg
 *.jpeg
 *.tif
 *.tiff
+
+# But keep the model file (important!)
 !rooftop_best_model_new.pt
+
+# Exclude large data folders
+Building_Data_Gujarat/
+Land_data_Gujarat/
+change detection/
+
+# Exclude backup and test files
+*_backup.py
+*_result.png
+*_report.txt
 
 # Temporary files
 *.log
