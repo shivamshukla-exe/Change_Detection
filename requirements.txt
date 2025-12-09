@@ -10,8 +10,11 @@ Pillow>=10.0.0
 rasterio>=1.3.0
 matplotlib>=3.7.0
 scikit-image>=0.21.0
+albumentations>=1.3.0
+shapely>=2.0.0
 
-# PyTorch (CPU version for server)
+# PyTorch and segmentation models (CPU version for server)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.0.0
 torchvision>=0.15.0
+segmentation-models-pytorch>=0.3.0
